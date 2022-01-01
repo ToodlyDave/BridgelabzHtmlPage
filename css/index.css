@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background-color: #00539f;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 5em;
+    text-align: center;
+    color: #00539f;
+    text-shadow: 3px 1px rgb(32, 32, 32);
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin: 4vh;
+}
+
+img {
+    height: 30vh;
+    width: 30vh;
+}
+
+.middle-container {
+    width: 50vw;
+    height: 100vh;
+    background-color: #ff9500;
+    border: 5px black;
+    border-style: none solid;
+    padding: 0% 10vw;
+}
